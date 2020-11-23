@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: url(./images/bgpic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.headline {
+  width: 75vw;
+  padding-top: 2.8rem;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.headline > p {
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.header__content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 75vw;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 15rem;
+}
+
+li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+/* .abs {
+  position: absolute;
+  width: 75vw;
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  bottom: -35px;
+} */
+
+.abs > img {
+  width: 91px;
+  height: 21px;
+}
+.dexterpic {
+  height: auto;
+  width: 20vw;
+}
+
+.prop-asap_white {
+  font-family: "Asap", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3.43rem;
+  margin-bottom: 1.875rem;
+  max-width: 28rem;
+}
+
+.btn {
+  width: 201px;
+  height: 61px;
+  background-color: #49b9e6;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  font-size: 1.125rem;
+  color: white;
+  font-family: "Asap", sans-serif;
+  font-weight: 600;
+}
+
+.themes {
+  background-color: #0084b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.container {
+  width: 75vw;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card > p {
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.card > h2 {
+  font-size: 55px;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prop-asap {
+  font-family: "Asap", sans-serif;
+}
+
+h2 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.speach {
+  width: 30.6rem;
+  height: 13.9rem;
+  font-size: 1.125rem;
+  padding: 40px 40px 45px 37px;
+  background-color: #ecf0f1;
+  border-radius: 5%;
+  font-style: italic;
+  color: #000000;
+  opacity: 0.6;
+  position: relative;
+  line-height: 27px;
+}
+
+.mandarkpic {
+  position: absolute;
+  right: -40.5px;
+  bottom: -40.5px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.box {
+  text-align: center;
+  max-width: 212px;
+}
+
+.box_img {
+  width: 211px;
+  height: 211px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 2.9rem;
+}
+
+.box_image-dexter {
+  position: absolute;
+  top: 32px;
+  right: 23px;
+}
+
+.box_image-deedee {
+  position: absolute;
+  top: 25px;
+  right: -9px;
+}
+
+.box_image-mandark {
+  position: absolute;
+  top: 2px;
+  right: 14px;
+}
+
+h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.box-description {
+  font-size: 1.125rem;
+  opacity: 0.6;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+  max-height: 10.5rem;
+}
+
+.footer-up {
+  background-color: #f1c40f;
+  font-size: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.footer__down {
+  background-color: #d8af0c;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holder {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  line-height: 24px;
+}
+
+.cont:nth-child(1) {
+  max-width: 18.5rem;
+}
+
+.cont:nth-child(2) {
+  max-width: 15rem;
+}
+
+h4 {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+}
